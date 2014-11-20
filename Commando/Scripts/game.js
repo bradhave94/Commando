@@ -33,6 +33,6 @@ function gameLoop(event) {
 
 //Initialize objects on start.
 function gameStart() {
-    firstLevel = new GameObjects.Level();
+    this.firstLevel = new GameObjects.Level();
 }
 //# sourceMappingURL=game.js.map

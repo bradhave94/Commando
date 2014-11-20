@@ -72,6 +72,7 @@
     <Content Include="Assets\Images\Skeleton\Skeleton.json" />
     <Content Include="Assets\Images\Skeleton\Skeleton.tps" />
     <Content Include="Assets\Images\Skeleton\Thumbs.db" />
+    <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.js" />
     <Content Include="Scripts\lib\jquery-2.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

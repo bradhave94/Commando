@@ -4,6 +4,7 @@ var stage: createjs.Stage;
 var queue;
 //Game Objects
 var firstLevel: GameObjects.Level;
+
 //Preload our assets
 function preload(): void {
     queue = new createjs.LoadQueue();
@@ -35,5 +36,5 @@ function gameLoop(event): void {
 
 //Initialize objects on start.
 function gameStart(): void {
-    firstLevel = new GameObjects.Level();
+    this.firstLevel = new GameObjects.Level();
 }
