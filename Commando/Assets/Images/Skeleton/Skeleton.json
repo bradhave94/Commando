@@ -1,0 +1,37 @@
+{
+"images": ["Skeleton.png"],
+"frames": [
+
+    [310, 2, 75, 79], 
+    [2, 2, 75, 80], 
+    [79, 2, 75, 80], 
+    [156, 2, 75, 80], 
+    [233, 2, 75, 80], 
+    [387, 2, 55, 49], 
+    [444, 2, 55, 49], 
+    [501, 2, 55, 49], 
+    [558, 2, 55, 49], 
+    [615, 2, 55, 49], 
+    [672, 2, 55, 49], 
+    [729, 2, 55, 49]
+],
+"animations": {
+    
+        "SkeletonAttack1":[0], 
+        "SkeletonAttack2":[1], 
+        "SkeletonAttack3":[2], 
+        "SkeletonAttack4":[3], 
+        "SkeletonAttack5":[4], 
+        "SkeletonWalk1":[5], 
+        "SkeletonWalk2":[6], 
+        "SkeletonWalk3":[7], 
+        "SkeletonWalk4":[8], 
+        "SkeletonWalk5":[9], 
+        "SkeletonWalk6":[10], 
+        "SkeletonWalk7":[11]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:f4f5de6d5d02220e16cdc0ac5697c0ce:29af99fe480bcaf4242a5e0c09d6a7c1:ce1ecb18543f1957b1b9c1b8fcd984c7$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

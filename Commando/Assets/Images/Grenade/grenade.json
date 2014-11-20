@@ -1,0 +1,23 @@
+{
+"images": ["grenade.png"],
+"frames": [
+
+    [2, 2, 25, 25], 
+    [52, 2, 25, 22], 
+    [79, 2, 22, 22], 
+    [29, 2, 21, 24], 
+    [103, 2, 23, 20]
+],
+"animations": {
+    
+        "grenade1":[0], 
+        "grenade2":[1], 
+        "grenade3":[2], 
+        "grenade4":[3], 
+        "grenade5":[4]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:a5731474c278d293c381f3ea6da72d6b:38dccb76d9afaeca6087a0585a45cd46:fd2535a66db860d27ee05da029a0ae86$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

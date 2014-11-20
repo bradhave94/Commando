@@ -1,0 +1,21 @@
+{
+"images": ["dragon.png"],
+"frames": [
+
+    [296, 2, 96, 73], 
+    [2, 2, 96, 84], 
+    [100, 2, 96, 84], 
+    [198, 2, 96, 81]
+],
+"animations": {
+    
+        "dragon1":[0], 
+        "dragon2":[1], 
+        "dragon3":[2], 
+        "dragon4":[3]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:da1ae1d3e342c15167f37502f4034464:c3b6b95e09c2e54b385ff0418714a95c:581e962efa07d1f36d42214f5f5ec489$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}
