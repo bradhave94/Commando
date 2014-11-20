@@ -4,16 +4,13 @@ var queue;
 
 //Game Objects
 var firstLevel;
+var player;
+var skeleton;
 
 //Preload our assets
 function preload() {
-    queue = new createjs.LoadQueue();
-    queue.installPlugin(createjs.Sound);
-    queue.addEventListener("complete", init);
-    queue.loadManifest([
-        { id: "Level1", src: "Assets/Images/Levels/level1.png" },
-        { id: "Player", src: "Assets/Images/Hero/heroWalk10.png" }
-    ]);
+    Manager.Assets.init();
+    Manager.Assets.loader.addEventListener("complete", init);
 }
 
 //Init function, called when the body of the html page is loaded. Enables mouse over and ticker
@@ -33,6 +30,8 @@ function gameLoop(event) {
 
 //Initialize objects on start.
 function gameStart() {
-    this.firstLevel = new GameObjects.Level();
+    firstLevel = new GameObjects.Level();
+    player = new GameObjects.Player();
+    skeleton = new GameObjects.Skeleton();
 }
 //# sourceMappingURL=game.js.map

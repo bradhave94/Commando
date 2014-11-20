@@ -176,6 +176,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\config\Controls.ts" />
+    <TypeScriptCompile Include="Scripts\config\Keys.ts" />
+    <TypeScriptCompile Include="Scripts\Enemy\Skeleton.ts" />
     <TypeScriptCompile Include="Scripts\game.ts" />
     <TypeScriptCompile Include="Scripts\gameobjects.ts" />
     <TypeScriptCompile Include="Scripts\lib\createjs-lib.d.ts" />
@@ -183,10 +186,12 @@
     <TypeScriptCompile Include="Scripts\lib\preloadjs.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\soundjs.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\tweenjs.d.ts" />
+    <TypeScriptCompile Include="Scripts\Managers\Assets.ts" />
     <TypeScriptCompile Include="Scripts\Player.ts" />
     <TypeScriptCompile Include="Scripts\State.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
