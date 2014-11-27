@@ -16,8 +16,11 @@
 /// <reference path="lib/stats.js" />
 /// <reference path="lib/tweenjs-0.5.1.min.js" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 /// <reference path="lib/box2dweb-2.1.a.3.js" />
 =======
+=======
+>>>>>>> origin/master
 /// <reference path="objects/Level.ts" />
 /// <reference path="keys.js" />
 /// <reference path="game.js" />
@@ -25,19 +28,28 @@
 /// <reference path="config.js" />
 /// <reference path="box2d.js" />
 /// <reference path="managers/asset.js" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 /// <reference path="objects/coin.js" />
 /// <reference path="objects/enemy.js" />
 /// <reference path="objects/hero.js" />
 /// <reference path="objects/label.js" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 /// <reference path="objects/platform.js" />
 /// <reference path="objects/reality.js" />
 /// <reference path="objects/scoreboard.js" />
 /// <reference path="box2d.js" />
 =======
+=======
+>>>>>>> origin/master
 /// <reference path="objects/Level.js" />
 /// <reference path="objects/platform.js" />
 /// <reference path="objects/reality.js" />
 /// <reference path="objects/scoreboard.js" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master

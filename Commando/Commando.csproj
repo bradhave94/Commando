@@ -77,9 +77,27 @@
     <Content Include="Assets\Images\Skeleton\Skeleton.tps" />
     <Content Include="Assets\Images\Skeleton\Thumbs.db" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.js" />
     <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.min.js" />
     <Content Include="Scripts\lib\jquery-2.1.1.min.map" />
+=======
+    <Content Include="Assets\sounds\yay.ogg" />
+    <Content Include="Assets\Timages\coin\.DS_Store" />
+    <Content Include="Assets\Timages\coin\coin.tps" />
+    <Content Include="Assets\Timages\coin\coinAtlas.json" />
+    <Content Include="Assets\Timages\enemy\enemy.tps" />
+    <Content Include="Assets\Timages\enemy\enemyAtlas.json" />
+    <Content Include="Assets\Timages\Hero\hero.tps" />
+    <Content Include="Assets\Timages\Hero\heroAtlas.json" />
+    <Content Include="Scripts\box2d.js.map" />
+    <Content Include="Scripts\config.js.map" />
+    <Content Include="Scripts\controls.js.map" />
+    <Content Include="Scripts\game.js.map" />
+    <Content Include="Scripts\keys.js.map" />
+    <Content Include="Scripts\lib\jquery-2.1.1.min.map" />
+    <Content Include="Scripts\managers\asset.js.map" />
+>>>>>>> origin/master
 =======
     <Content Include="Assets\sounds\yay.ogg" />
     <Content Include="Assets\Timages\coin\.DS_Store" />
@@ -102,6 +120,10 @@
     <Content Include="Scripts\objects\hero.js.map" />
     <Content Include="Scripts\objects\label.js.map" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <Content Include="Scripts\objects\Level.js.map" />
+>>>>>>> origin/master
 =======
     <Content Include="Scripts\objects\Level.js.map" />
 >>>>>>> origin/master
@@ -297,11 +319,18 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\box2d.ts" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <TypeScriptCompile Include="Scripts\config\Controls.ts" />
     <TypeScriptCompile Include="Scripts\config\Keys.ts" />
     <TypeScriptCompile Include="Scripts\Enemy\Skeleton.ts" />
     <TypeScriptCompile Include="Scripts\game.ts" />
     <TypeScriptCompile Include="Scripts\gameobjects.ts" />
+=======
+    <TypeScriptCompile Include="Scripts\config.ts" />
+    <TypeScriptCompile Include="Scripts\controls.ts" />
+    <TypeScriptCompile Include="Scripts\game.ts" />
+    <TypeScriptCompile Include="Scripts\keys.ts" />
+>>>>>>> origin/master
 =======
     <TypeScriptCompile Include="Scripts\config.ts" />
     <TypeScriptCompile Include="Scripts\controls.ts" />
@@ -316,8 +345,13 @@
     <TypeScriptCompile Include="Scripts\lib\stats.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\tweenjs.d.ts" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <TypeScriptCompile Include="Scripts\Managers\Assets.ts" />
     <TypeScriptCompile Include="Scripts\Managers\TomsAssetEX.ts" />
+=======
+    <TypeScriptCompile Include="Scripts\managers\asset.ts" />
+    <TypeScriptCompile Include="Scripts\managers\TomsAssetEX.ts" />
+>>>>>>> origin/master
 =======
     <TypeScriptCompile Include="Scripts\managers\asset.ts" />
     <TypeScriptCompile Include="Scripts\managers\TomsAssetEX.ts" />
@@ -327,6 +361,7 @@
     <TypeScriptCompile Include="Scripts\objects\hero.ts" />
     <TypeScriptCompile Include="Scripts\objects\label.ts" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <TypeScriptCompile Include="Scripts\objects\platform.ts" />
     <TypeScriptCompile Include="Scripts\objects\reality.ts" />
     <TypeScriptCompile Include="Scripts\objects\scoreboard.ts" />
@@ -334,10 +369,15 @@
     <TypeScriptCompile Include="Scripts\State.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
 =======
+=======
+>>>>>>> origin/master
     <TypeScriptCompile Include="Scripts\objects\Level.ts" />
     <TypeScriptCompile Include="Scripts\objects\platform.ts" />
     <TypeScriptCompile Include="Scripts\objects\reality.ts" />
     <TypeScriptCompile Include="Scripts\objects\scoreboard.ts" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
   </ItemGroup>
   <PropertyGroup>

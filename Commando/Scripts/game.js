@@ -19,12 +19,15 @@ var ground;
 var level;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Game Objects
 var firstLevel;
 var player;
 var skeleton;
 var ground;
 =======
+=======
+>>>>>>> origin/master
 // Physics Variables
 var world;
 var reality;
@@ -33,6 +36,9 @@ var reality;
 var hero;
 var coin;
 var scoreboard;
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
 function preload() {
@@ -84,6 +90,7 @@ function setupStats() {
 
 function gameStart() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     ground = new objects.Platform(0, 20, 1024, 2);
 
     stage.addChild(ground.view);
@@ -91,6 +98,8 @@ function gameStart() {
     player = new GameObjects.Player();
     skeleton = new GameObjects.Skeleton();
 =======
+=======
+>>>>>>> origin/master
     ground = new objects.Platform(0, 20.8, 500, 1);
 
     //stage.addChild(ground.view);
@@ -142,6 +151,9 @@ function gameStart() {
     bodyDef.position.y = Math.random() * stage.canvas.height / config.SCALE;
     world.CreateBody(bodyDef).CreateFixture(fixDef);
     } */
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }
 //# sourceMappingURL=game.js.map

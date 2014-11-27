@@ -17,6 +17,7 @@ var debugCanvas;
 var stats: Stats;
 var stage: createjs.Stage;
 <<<<<<< HEAD
+<<<<<<< HEAD
 var queue;
 //Game Objects
 var firstLevel: GameObjects.Level;
@@ -25,6 +26,8 @@ var skeleton: GameObjects.Skeleton;
 var ground: objects.Platform;
 //Preload our assets
 =======
+=======
+>>>>>>> origin/master
 var ground: objects.Platform;
 var level: objects.Level;
 
@@ -37,6 +40,9 @@ var hero: objects.Hero;
 var coin: objects.Coin;
 var scoreboard: objects.Scoreboard;
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 function preload(): void {
     managers.Assets.init();
@@ -90,6 +96,7 @@ function setupStats() {
 
 function gameStart(): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     ground = new objects.Platform(0, 20, 1024, 2);
     
     stage.addChild(ground.view);
@@ -97,6 +104,8 @@ function gameStart(): void {
     player = new GameObjects.Player();
     skeleton = new GameObjects.Skeleton();
 =======
+=======
+>>>>>>> origin/master
 
     ground = new objects.Platform(0, 20.8, 500, 1);
     
@@ -157,5 +166,8 @@ function gameStart(): void {
         world.CreateBody(bodyDef).CreateFixture(fixDef);
     } */
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }
