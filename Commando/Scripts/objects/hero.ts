@@ -16,7 +16,7 @@ module objects {
         lastJumpTime: number;
         MAX_SPEED: number = 30;
         JUMP_TIMEOUT: number = 1000 // 1 second
-        JUMP_HEIGHT: number = 110;
+        JUMP_HEIGHT: number = 40;
         constructor() {
             // Set our Hero controls initially to false
 

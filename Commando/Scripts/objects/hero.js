@@ -9,7 +9,7 @@ var objects;
         function Hero() {
             this.MAX_SPEED = 30;
             this.JUMP_TIMEOUT = 1000;
-            this.JUMP_HEIGHT = 110;
+            this.JUMP_HEIGHT = 40;
             // Set our Hero controls initially to false
             // Sets last jump time to zero, to allow
             // for jumping immediately

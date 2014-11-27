@@ -1,5 +1,4 @@
 ﻿/// <reference path="../box2d.ts" />
-/// <reference path="../config.ts" />
 var objects;
 (function (objects) {
     var Platform = (function () {
