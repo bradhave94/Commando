@@ -29,4 +29,9 @@
         "SkeletonWalk5":[9], 
         "SkeletonWalk6":[10], 
         "SkeletonWalk7":[11]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:f4f5de6d5d02220e16cdc0ac5697c0ce:29af99fe480bcaf4242a5e0c09d6a7c1:ce1ecb18543f1957b1b9c1b8fcd984c7$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
 }

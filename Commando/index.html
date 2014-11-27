@@ -1,42 +1,41 @@
-﻿<!--
-    Programmed By:
-    Site Name:
-    Date:
-    Decription:
--->
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Commando</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Box2D_Platformer</title>
     <!-- CSS Section -->
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
 </head>
 <body onload="preload()">
-    <canvas id="canvas" width="1024" height="768"></canvas>
-    <!-- JavaScript Section -->
-    <script src="Scripts/lib/jquery-2.1.1.min.js"></script>    
+    <canvas id="arcade" width="1024" height="640"></canvas>
+    <canvas id="debug" width="1024" height="640"></canvas>
+
+    <!-- JavaScript libraries -->
+    <script src="Scripts/lib/jquery-2.1.1.min.js"></script>
     <script src="Scripts/lib/easeljs-0.7.1.min.js"></script>
+    <script src="Scripts/lib/tweenjs-0.5.1.min.js"></script>
     <script src="Scripts/lib/soundjs-0.5.2.min.js"></script>
     <script src="Scripts/lib/preloadjs-0.4.1.min.js"></script>
-    <script src="Scripts/lib/Box2dWeb-2.1.a.3.js"></script>
+
     <script src="Scripts/lib/Box2dWeb-2.1.a.3.min.js"></script>
-    <!--Test-->
-    <!--State-->
-    <script src="Scripts/State.js"></script>
-    <!--Constants-
-    <script src="Scripts/constants.js"></script>
-    <!--Assests-
-    <!--Game objects-->
-    <script src="Scripts/Managers/Assets.js"></script>
-    <script src="Scripts/gameobjects.js"></script>
-    <script src="Scripts/Player.js"></script>
-    <script src="Scripts/config/Keys.js"></script>
-    <script src="Scripts/config/Controls.js"></script>
-    <script src="Scripts/Enemy/Skeleton.js"></script>
-    <!--Main Logic-->
+    <script src="Scripts/lib/Stats.js"></script>
+
+    <!-- Game Code -->
+    <script src="Scripts/config.js"></script>
+    <script src="Scripts/box2d.js"></script>
+    <script src="Scripts/keys.js"></script>
+    <script src="Scripts/controls.js"></script>
+    <script src="Scripts/managers/asset.js"></script>
+    <script src="Scripts/objects/Level.js"></script>
+    <script src="Scripts/objects/label.js"></script>
+    <script src="Scripts/objects/scoreboard.js"></script>
+    <script src="Scripts/objects/reality.js"></script>
+    <script src="Scripts/objects/platform.js"></script>
+    <script src="Scripts/objects/hero.js"></script>
+    <script src="Scripts/objects/enemy.js"></script>
+    <script src="Scripts/objects/coin.js"></script>
     <script src="Scripts/game.js"></script>
 </body>
 </html>
