@@ -59,9 +59,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Font\Font.json" />
-    <Content Include="Assets\Font\Font.tps" />
-    <Content Include="Assets\Font\Thumbs.db" />
+    <Content Include="Assets\fonts\Dock51.eot" />
+    <Content Include="Assets\fonts\Dock51.tps" />
+    <Content Include="Assets\fonts\Dock51.ttf" />
+    <Content Include="Assets\fonts\Dock51.woff" />
+    <Content Include="Assets\fonts\Dock51.woff2" />
     <Content Include="Assets\Images\Dragon\dragon.json" />
     <Content Include="Assets\Images\Dragon\dragon.tps" />
     <Content Include="Assets\Images\Grenade\grenade.json" />
@@ -69,11 +71,43 @@
     <Content Include="Assets\Images\Grenade\Thumbs.db" />
     <Content Include="Assets\Images\Hero\hero.json" />
     <Content Include="Assets\Images\Hero\hero.tps" />
+    <Content Include="Assets\Images\Hero\Thumbs.db" />
+    <Content Include="Assets\Images\Levels\Thumbs.db" />
     <Content Include="Assets\Images\Skeleton\Skeleton.json" />
     <Content Include="Assets\Images\Skeleton\Skeleton.tps" />
     <Content Include="Assets\Images\Skeleton\Thumbs.db" />
+<<<<<<< HEAD
     <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.js" />
+    <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.min.js" />
     <Content Include="Scripts\lib\jquery-2.1.1.min.map" />
+=======
+    <Content Include="Assets\sounds\yay.ogg" />
+    <Content Include="Assets\Timages\coin\.DS_Store" />
+    <Content Include="Assets\Timages\coin\coin.tps" />
+    <Content Include="Assets\Timages\coin\coinAtlas.json" />
+    <Content Include="Assets\Timages\enemy\enemy.tps" />
+    <Content Include="Assets\Timages\enemy\enemyAtlas.json" />
+    <Content Include="Assets\Timages\Hero\hero.tps" />
+    <Content Include="Assets\Timages\Hero\heroAtlas.json" />
+    <Content Include="Scripts\box2d.js.map" />
+    <Content Include="Scripts\config.js.map" />
+    <Content Include="Scripts\controls.js.map" />
+    <Content Include="Scripts\game.js.map" />
+    <Content Include="Scripts\keys.js.map" />
+    <Content Include="Scripts\lib\jquery-2.1.1.min.map" />
+    <Content Include="Scripts\managers\asset.js.map" />
+>>>>>>> origin/master
+    <Content Include="Scripts\objects\coin.js.map" />
+    <Content Include="Scripts\objects\enemy.js.map" />
+    <Content Include="Scripts\objects\hero.js.map" />
+    <Content Include="Scripts\objects\label.js.map" />
+<<<<<<< HEAD
+=======
+    <Content Include="Scripts\objects\Level.js.map" />
+>>>>>>> origin/master
+    <Content Include="Scripts\objects\platform.js.map" />
+    <Content Include="Scripts\objects\reality.js.map" />
+    <Content Include="Scripts\objects\scoreboard.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,43 +116,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Font\0.png" />
-    <Content Include="Assets\Font\1.png" />
-    <Content Include="Assets\Font\2.png" />
-    <Content Include="Assets\Font\3.png" />
-    <Content Include="Assets\Font\4.png" />
-    <Content Include="Assets\Font\5.png" />
-    <Content Include="Assets\Font\6.png" />
-    <Content Include="Assets\Font\7.png" />
-    <Content Include="Assets\Font\8.png" />
-    <Content Include="Assets\Font\9.png" />
-    <Content Include="Assets\Font\A.png" />
-    <Content Include="Assets\Font\B.png" />
-    <Content Include="Assets\Font\C.png" />
-    <Content Include="Assets\Font\D.png" />
-    <Content Include="Assets\Font\E.png" />
-    <Content Include="Assets\Font\F.png" />
-    <Content Include="Assets\Font\Font.png" />
-    <Content Include="Assets\Font\G.png" />
-    <Content Include="Assets\Font\H.png" />
-    <Content Include="Assets\Font\I.png" />
-    <Content Include="Assets\Font\J.png" />
-    <Content Include="Assets\Font\K.png" />
-    <Content Include="Assets\Font\L.png" />
-    <Content Include="Assets\Font\M.png" />
-    <Content Include="Assets\Font\N.png" />
-    <Content Include="Assets\Font\O.png" />
-    <Content Include="Assets\Font\P.png" />
-    <Content Include="Assets\Font\Q.png" />
-    <Content Include="Assets\Font\R.png" />
-    <Content Include="Assets\Font\S.png" />
-    <Content Include="Assets\Font\T.png" />
-    <Content Include="Assets\Font\U.png" />
-    <Content Include="Assets\Font\V.png" />
-    <Content Include="Assets\Font\W.png" />
-    <Content Include="Assets\Font\X.png" />
-    <Content Include="Assets\Font\Y.png" />
-    <Content Include="Assets\Font\Z.png" />
+    <Content Include="Assets\fonts\Dock51.png" />
+    <Content Include="Assets\fonts\Dock51.svg" />
+    <Content Include="Assets\fonts\fontAtlas.png" />
     <Content Include="Assets\Images\Dragon\dragon.png" />
     <Content Include="Assets\Images\Dragon\dragon1.png" />
     <Content Include="Assets\Images\Dragon\dragon2.png" />
@@ -144,6 +144,9 @@
     <Content Include="Assets\Images\Hero\heroWalk8.png" />
     <Content Include="Assets\Images\Hero\heroWalk9.png" />
     <Content Include="Assets\Images\Hero\mussleFlare.png" />
+    <Content Include="Assets\Images\level1.jpg" />
+    <Content Include="Assets\Images\level1.png" />
+    <Content Include="Assets\Images\Levels\level1.jpg" />
     <Content Include="Assets\Images\Levels\level1.png" />
     <Content Include="Assets\Images\Skeleton\Skeleton.png" />
     <Content Include="Assets\Images\Skeleton\SkeletonAttack1.png" />
@@ -158,40 +161,185 @@
     <Content Include="Assets\Images\Skeleton\SkeletonWalk5.png" />
     <Content Include="Assets\Images\Skeleton\SkeletonWalk6.png" />
     <Content Include="Assets\Images\Skeleton\SkeletonWalk7.png" />
+    <Content Include="Assets\sounds\coin.mp3" />
+    <Content Include="Assets\sounds\dead.mp3" />
+    <Content Include="Assets\sounds\hurt.mp3" />
+    <Content Include="Assets\sounds\Jump.mp3" />
+    <Content Include="Assets\Timages\coin\coin01.png" />
+    <Content Include="Assets\Timages\coin\coin02.png" />
+    <Content Include="Assets\Timages\coin\coin03.png" />
+    <Content Include="Assets\Timages\coin\coin04.png" />
+    <Content Include="Assets\Timages\coin\coin05.png" />
+    <Content Include="Assets\Timages\coin\coin06.png" />
+    <Content Include="Assets\Timages\coin\coin07.png" />
+    <Content Include="Assets\Timages\coin\coin08.png" />
+    <Content Include="Assets\Timages\coin\coin09.png" />
+    <Content Include="Assets\Timages\coin\coin10.png" />
+    <Content Include="Assets\Timages\coin\coinAtlas.png" />
+    <Content Include="Assets\Timages\enemy\enemyAtlas.png" />
+    <Content Include="Assets\Timages\enemy\idle.png" />
+    <Content Include="Assets\Timages\enemy\jump0001.png" />
+    <Content Include="Assets\Timages\enemy\jump0002.png" />
+    <Content Include="Assets\Timages\enemy\jump0003.png" />
+    <Content Include="Assets\Timages\enemy\jump0004.png" />
+    <Content Include="Assets\Timages\enemy\jump0005.png" />
+    <Content Include="Assets\Timages\enemy\jump0006.png" />
+    <Content Include="Assets\Timages\enemy\walk0001.png" />
+    <Content Include="Assets\Timages\enemy\walk0002.png" />
+    <Content Include="Assets\Timages\enemy\walk0003.png" />
+    <Content Include="Assets\Timages\enemy\walk0004.png" />
+    <Content Include="Assets\Timages\enemy\walk0005.png" />
+    <Content Include="Assets\Timages\enemy\walk0006.png" />
+    <Content Include="Assets\Timages\enemy\walk0007.png" />
+    <Content Include="Assets\Timages\enemy\walk0008.png" />
+    <Content Include="Assets\Timages\enemy\walk0009.png" />
+    <Content Include="Assets\Timages\enemy\walk0010.png" />
+    <Content Include="Assets\Timages\enemy\walk0011.png" />
+    <Content Include="Assets\Timages\enemy\walk0012.png" />
+    <Content Include="Assets\Timages\Hero\heroAtlas.png" />
+    <Content Include="Assets\Timages\Hero\idle0001.png" />
+    <Content Include="Assets\Timages\Hero\idle0002.png" />
+    <Content Include="Assets\Timages\Hero\idle0003.png" />
+    <Content Include="Assets\Timages\Hero\idle0004.png" />
+    <Content Include="Assets\Timages\Hero\idle0005.png" />
+    <Content Include="Assets\Timages\Hero\idle0006.png" />
+    <Content Include="Assets\Timages\Hero\idle0007.png" />
+    <Content Include="Assets\Timages\Hero\idle0008.png" />
+    <Content Include="Assets\Timages\Hero\idle0009.png" />
+    <Content Include="Assets\Timages\Hero\idle0010.png" />
+    <Content Include="Assets\Timages\Hero\idle0011.png" />
+    <Content Include="Assets\Timages\Hero\idle0012.png" />
+    <Content Include="Assets\Timages\Hero\idle0013.png" />
+    <Content Include="Assets\Timages\Hero\idle0014.png" />
+    <Content Include="Assets\Timages\Hero\idle0015.png" />
+    <Content Include="Assets\Timages\Hero\idle0016.png" />
+    <Content Include="Assets\Timages\Hero\idle0017.png" />
+    <Content Include="Assets\Timages\Hero\idle0018.png" />
+    <Content Include="Assets\Timages\Hero\idle0019.png" />
+    <Content Include="Assets\Timages\Hero\idle0020.png" />
+    <Content Include="Assets\Timages\Hero\idle0021.png" />
+    <Content Include="Assets\Timages\Hero\idle0022.png" />
+    <Content Include="Assets\Timages\Hero\idle0023.png" />
+    <Content Include="Assets\Timages\Hero\idle0024.png" />
+    <Content Include="Assets\Timages\Hero\jump0001.png" />
+    <Content Include="Assets\Timages\Hero\jump0002.png" />
+    <Content Include="Assets\Timages\Hero\jump0003.png" />
+    <Content Include="Assets\Timages\Hero\jump0004.png" />
+    <Content Include="Assets\Timages\Hero\jump0005.png" />
+    <Content Include="Assets\Timages\Hero\jump0006.png" />
+    <Content Include="Assets\Timages\Hero\walk0001.png" />
+    <Content Include="Assets\Timages\Hero\walk0002.png" />
+    <Content Include="Assets\Timages\Hero\walk0003.png" />
+    <Content Include="Assets\Timages\Hero\walk0004.png" />
+    <Content Include="Assets\Timages\Hero\walk0005.png" />
+    <Content Include="Assets\Timages\Hero\walk0006.png" />
+    <Content Include="Assets\Timages\Hero\walk0007.png" />
+    <Content Include="Assets\Timages\Hero\walk0008.png" />
+    <Content Include="Assets\Timages\Hero\walk0009.png" />
+    <Content Include="Assets\Timages\Hero\walk0010.png" />
+    <Content Include="Assets\Timages\Hero\walk0011.png" />
+    <Content Include="Assets\Timages\Hero\walk0012.png" />
+    <Content Include="Assets\Timages\Hero\walk0013.png" />
+    <Content Include="Assets\Timages\Hero\walk0014.png" />
+    <Content Include="Assets\Timages\Hero\walk0015.png" />
+    <Content Include="Assets\Timages\loading.jpg" />
     <Content Include="css\app.css" />
     <Content Include="css\normalize.css" />
     <Content Include="index.html" />
-    <Content Include="Scripts\lib\easeljs-0.7.1.min.js" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\box2d.js" />
+    <Content Include="Scripts\config.js" />
+    <Content Include="Scripts\controls.js" />
+    <Content Include="Scripts\filters\AlphaMapFilter.js" />
+    <Content Include="Scripts\filters\AlphaMaskFilter.js" />
+    <Content Include="Scripts\filters\BoxBlurFilter.js" />
+    <Content Include="Scripts\filters\ColorFilter.js" />
+    <Content Include="Scripts\filters\ColorMatrix.js" />
+    <Content Include="Scripts\filters\ColorMatrixFilter.js" />
+    <Content Include="Scripts\filters\Filter.js" />
+    <Content Include="Scripts\game.js" />
+    <Content Include="Scripts\keys.js" />
+    <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.js" />
+    <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.min.js" />
+    <Content Include="Scripts\lib\easeljs-0.7.1.min.js" />
     <None Include="Scripts\lib\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\lib\jquery-2.1.1.js" />
     <Content Include="Scripts\lib\jquery-2.1.1.min.js" />
     <Content Include="Scripts\lib\preloadjs-0.4.1.min.js" />
+    <Content Include="Scripts\lib\r.js" />
+    <Content Include="Scripts\lib\require.js" />
     <Content Include="Scripts\lib\soundjs-0.5.2.min.js" />
+    <Content Include="Scripts\lib\Stats.js" />
     <Content Include="Scripts\lib\tweenjs-0.5.1.min.js" />
+    <Content Include="Scripts\managers\asset.js" />
+    <Content Include="Scripts\objects\coin.js" />
+    <Content Include="Scripts\objects\enemy.js" />
+    <Content Include="Scripts\objects\hero.js" />
+    <Content Include="Scripts\objects\label.js" />
+    <Content Include="Scripts\objects\Level.js" />
+    <Content Include="Scripts\objects\platform.js" />
+    <Content Include="Scripts\objects\reality.js" />
+    <Content Include="Scripts\objects\scoreboard.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="Scripts\objects\coin.js" />
+    <Content Include="Scripts\objects\enemy.js" />
+    <Content Include="Scripts\objects\hero.js" />
+    <Content Include="Scripts\objects\label.js" />
+    <Content Include="Scripts\objects\platform.js" />
+    <Content Include="Scripts\objects\reality.js" />
+    <Content Include="Scripts\objects\scoreboard.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\box2d.ts" />
+<<<<<<< HEAD
     <TypeScriptCompile Include="Scripts\config\Controls.ts" />
     <TypeScriptCompile Include="Scripts\config\Keys.ts" />
     <TypeScriptCompile Include="Scripts\Enemy\Skeleton.ts" />
     <TypeScriptCompile Include="Scripts\game.ts" />
     <TypeScriptCompile Include="Scripts\gameobjects.ts" />
+=======
+    <TypeScriptCompile Include="Scripts\config.ts" />
+    <TypeScriptCompile Include="Scripts\controls.ts" />
+    <TypeScriptCompile Include="Scripts\game.ts" />
+    <TypeScriptCompile Include="Scripts\keys.ts" />
+>>>>>>> origin/master
+    <TypeScriptCompile Include="Scripts\lib\box2dweb.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\createjs-lib.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\easeljs.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\preloadjs.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\soundjs.d.ts" />
+    <TypeScriptCompile Include="Scripts\lib\stats.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\tweenjs.d.ts" />
+<<<<<<< HEAD
     <TypeScriptCompile Include="Scripts\Managers\Assets.ts" />
+    <TypeScriptCompile Include="Scripts\Managers\TomsAssetEX.ts" />
+=======
+    <TypeScriptCompile Include="Scripts\managers\asset.ts" />
+    <TypeScriptCompile Include="Scripts\managers\TomsAssetEX.ts" />
+>>>>>>> origin/master
+    <TypeScriptCompile Include="Scripts\objects\coin.ts" />
+    <TypeScriptCompile Include="Scripts\objects\enemy.ts" />
+    <TypeScriptCompile Include="Scripts\objects\hero.ts" />
+    <TypeScriptCompile Include="Scripts\objects\label.ts" />
+<<<<<<< HEAD
+    <TypeScriptCompile Include="Scripts\objects\platform.ts" />
+    <TypeScriptCompile Include="Scripts\objects\reality.ts" />
+    <TypeScriptCompile Include="Scripts\objects\scoreboard.ts" />
     <TypeScriptCompile Include="Scripts\Player.ts" />
     <TypeScriptCompile Include="Scripts\State.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+=======
+    <TypeScriptCompile Include="Scripts\objects\Level.ts" />
+    <TypeScriptCompile Include="Scripts\objects\platform.ts" />
+    <TypeScriptCompile Include="Scripts\objects\reality.ts" />
+    <TypeScriptCompile Include="Scripts\objects\scoreboard.ts" />
+>>>>>>> origin/master
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
