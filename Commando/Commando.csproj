@@ -73,7 +73,15 @@
     <Content Include="Assets\Images\Skeleton\Skeleton.tps" />
     <Content Include="Assets\Images\Skeleton\Thumbs.db" />
     <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.js" />
+    <Content Include="Scripts\lib\Box2dWeb-2.1.a.3.min.js" />
     <Content Include="Scripts\lib\jquery-2.1.1.min.map" />
+    <Content Include="Scripts\objects\coin.js.map" />
+    <Content Include="Scripts\objects\enemy.js.map" />
+    <Content Include="Scripts\objects\hero.js.map" />
+    <Content Include="Scripts\objects\label.js.map" />
+    <Content Include="Scripts\objects\platform.js.map" />
+    <Content Include="Scripts\objects\reality.js.map" />
+    <Content Include="Scripts\objects\scoreboard.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -170,23 +178,40 @@
     <Content Include="Scripts\lib\soundjs-0.5.2.min.js" />
     <Content Include="Scripts\lib\tweenjs-0.5.1.min.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="Scripts\objects\coin.js" />
+    <Content Include="Scripts\objects\enemy.js" />
+    <Content Include="Scripts\objects\hero.js" />
+    <Content Include="Scripts\objects\label.js" />
+    <Content Include="Scripts\objects\platform.js" />
+    <Content Include="Scripts\objects\reality.js" />
+    <Content Include="Scripts\objects\scoreboard.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\box2d.ts" />
     <TypeScriptCompile Include="Scripts\config\Controls.ts" />
     <TypeScriptCompile Include="Scripts\config\Keys.ts" />
     <TypeScriptCompile Include="Scripts\Enemy\Skeleton.ts" />
     <TypeScriptCompile Include="Scripts\game.ts" />
     <TypeScriptCompile Include="Scripts\gameobjects.ts" />
+    <TypeScriptCompile Include="Scripts\lib\box2dweb.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\createjs-lib.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\easeljs.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\preloadjs.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\soundjs.d.ts" />
     <TypeScriptCompile Include="Scripts\lib\tweenjs.d.ts" />
     <TypeScriptCompile Include="Scripts\Managers\Assets.ts" />
+    <TypeScriptCompile Include="Scripts\Managers\TomsAssetEX.ts" />
+    <TypeScriptCompile Include="Scripts\objects\coin.ts" />
+    <TypeScriptCompile Include="Scripts\objects\enemy.ts" />
+    <TypeScriptCompile Include="Scripts\objects\hero.ts" />
+    <TypeScriptCompile Include="Scripts\objects\label.ts" />
+    <TypeScriptCompile Include="Scripts\objects\platform.ts" />
+    <TypeScriptCompile Include="Scripts\objects\reality.ts" />
+    <TypeScriptCompile Include="Scripts\objects\scoreboard.ts" />
     <TypeScriptCompile Include="Scripts\Player.ts" />
     <TypeScriptCompile Include="Scripts\State.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
